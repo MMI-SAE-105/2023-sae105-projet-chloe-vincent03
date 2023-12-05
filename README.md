@@ -1,8 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/OLLHpiQA)
-- NOM : 
-- PRÉNOM :
-- URL du site :
-- URL FIGMA :
+- NOM : Vincent 
+- PRÉNOM : Chloé
+- URL du site : https://thunderous-valkyrie-78d3b9.netlify.app
+- URL FIGMA : https://www.figma.com/file/bd5vx9jotmbMZKalyNnOCe/Maquettes-projet-individuel-%E2%80%94-Chlo%C3%A9-Vincent?type=design&node-id=1501%3A115&mode=design&t=vd3B9trmc5TnCkSw-1
 
 # Structure de départ pour le projet individuel.
 
