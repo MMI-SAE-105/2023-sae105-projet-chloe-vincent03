@@ -14,13 +14,10 @@ h2{
    text-transform: uppercase;
    color: var(--blanc);
    background-color: var(--orange);
-   padding: 60px;
-   width: 100vw;
    text-align: center;
    margin: 0;
-  
-
 }
+
 
 h3{
     font-size: var(--intertitre);
