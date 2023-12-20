@@ -22,38 +22,25 @@
           </nav>
     </header>
     <main>
-    <section>
-        <header>
-            <h2> contact</h2>
-        </header>
-        <h2>Formulaire:</h2> 
-        <form action="#">
-            <div>
-                <label for="Nom"> Nom</label>
-                <input type="text" name="nom" id=""> Nom
-            </div>
-            <div>
-                <label for="Prénom"> Prénom</label>
-                <input type="text" name="Prénom" id="Prénom"> 
-            </div>
-            <div>
-                <label for="Adresse électronique "> Adresse électronique </label>
-                <input type="email" name="Adresse électronique " id="Adresse électronique ">
-            </div>
-            <div>
-                <label for="objets"> Objet </label>
-                <input type="text" name="objet" id="objet">
-            </div>
-            <div>
-                <label for="message"> message</label>
-                <textarea id="message" rows="5"></textarea>
-            </div>
-        </form>
-        
-        <footer>
-            <a href="#"> Envoyer</a>
-        </footer>         
-    </section>
+        <section class="section__marrons">
+            <h2 class="contact__Titre">Contactez Nous</h2>
+            <p class="contact__texte"> Vous pouvez nous contacter si vous avez besoin d'aide ou de renseignements.</p>
+            <form action="#">
+                <div>
+                  <label for="Prénom" class="contact__formulaire">Prénom</label>
+                  <input type="text" name="Prénom" id="Prénom">
+                </div>
+                <div>
+                  <label for="Nom" class="contact__formulaire" >Nom</label>
+                  <input type="text" name="Nom" id="Nom">
+                </div>
+                <div>
+                  <label for="message" class="contact__formulaire">Message</label>
+                  <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="contact__Btn">Envoyer</button>
+              </form>
+        </section>
 </main>
 <footer>
     <h3>Chloé Vincent MMI 1 B1</h3>
