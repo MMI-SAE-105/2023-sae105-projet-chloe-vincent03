@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mission Cléopâtre</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="/fr/index.html">
+            <img src="/public/icon/logo.svg" alt="Logo mission cléopâtre" class="header-logo">
+        </a>
+        <a class="Btn__menu">
+            <img src="/public/icon/menu.svg" alt="Menu" 
+        aria-controls="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
+        >
+    </a>
+        <nav 
+          id="mainNav" 
+          x-show="menuIsOpen" 
+          x-transition.duration.500ms
+          class="menu"
+        >
+
+        <a href="/fr/index.html"  >
+            <img src="/public/icon/menu.svg" alt="Logo mission cléopâtre" class="logo-menu">
+        </a>
+
+        <img src="/public/icon/crois.svg" alt="Close menu" 
+        @click="menuIsOpen = false"
+        class="header_menuBtn"
+    > 
+          <ul class="menu-list">
+            <li><a href="/fr/film.html" class="menu_texte"> Astérix et Obélix : mission Cléopâtre</a></li>
+            <li><a href="/fr/replique.html" class="menu_texte">“Il fait au moins... -8000” </a></li>
+            <li><a href="/fr/realisateur.html" class="menu_texte">Alain Chabat </a></li>
+            <li><a href="/fr/livre.html" class="menu_texte"> Astérix et Cléopâtre Bd</a></li>
+            <li><a href="/fr/musique.html" class="menu_texte"> I feel Good </a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <a href="../en/index.html" onclick="document.cookie = 
+`nf_lang=en; path=/ ; SameSite=Strict`
+"
+class="redirection"
+> En</a>
+        <section class="section">
+            <h1 class="accueil__titre">"It's at least... -8000”</h1>
+            <p class="accueil__intro">The world of cinema is an inexhaustible source of inspiration, reflection and emotion. Each film offers us memorable moments, lines that resonate in our minds long after the cinema lights have gone out. But what if we went beyond these cult lines to explore the world around them ?</p>
+            <img src="/public/img/accueil/accueil1.webp" alt="image accueil 1, Astérix et Obélix" class="accueil__img1">
+        </section>
+
+        <section class="section">
+            <article>
+                <header>
+                    <h2 class="accueil__intertitre">"Asterix and Obelix: Mission Cleopatra": Alain Chabat's cinematic masterpiece</h2>
+                </header>
+                <p class="accueil__texte">"Asterix and Obelix: Mission Cleopatra" is much more than just a film. It is a veritable icon of French cinema, a masterpiece that has left an indelible mark on the history of the cinema. Directed by the talented Alain Chabat, this feature film marked a major turning point in the French film industry.</p>
+                <a href="/fr/film.html"><img src="/public/img/accueil/accueil2.webp" alt="movie character" class="accueil__img  accueil__img__droite"></a>
+                <p  class="accueil__légende  accueil__légende_droite"> movie character</p>
+                <footer>
+                     <a href="/fr/film.html"> more </a>
+                </footer> 
+            </article>
+            <article>
+                <h2 class="accueil__intertitre">“It's at least... -8000" - Cult lines that made the film a hit</h2>
+                <p class="accueil__texte">  The film Asterix and Obelix : Mission Cleopatra, directed by Alain Chabat, is packed with memorable lines that have left their mark on cinema history. These lines, although added to the original storyline of the comic strip, contributed to the undeniable success of the film. One of the most famous is: "What kind of country is this? It can't be. It's at least... -800 !"</p>
+                <a href="/fr/replique.html"><img src="/public/img/accueil/image3.webp" alt=" Jamel Debbouze " class="accueil__img "></a>
+                <p class="accueil__légende"> Jamel Debbouze </p>
+                <footer>
+                     <a href="/fr/replique.html"> more </a>
+                </footer> 
+            </article>
+            <article>
+                <h2 class="accueil__intertitre">Alain Chabat : A Pillar of French Cinema</h2>
+                <p class="accueil__texte">  Alain Chabat is an iconic figure in French cinema, whose rich and varied career has captured the hearts of audiences. As a director, he is best known for helming one of France's biggest box-office hits with "Asterix and Obelix: Mission Cleopatra" in 2002. However, his influence extends far beyond film-making. </p>
+                <a href="/fr/realisateur.html"><img src="/public/img/accueil/accueil4.webp" alt="Alain Chabat filming " class="accueil__img  accueil__img__droite"></a>
+                <p class="accueil__légende accueil__légende_droite"> Alain Chabat filming </p>
+                <footer>
+                    <a href="/fr/realisateur.html"> more </a>
+                </footer> 
+            </article>
+            <article>
+                <h2 class="accueil__intertitre">Asterix and Cleopatra : The Epic of an Iconic Comic Strip</h2>
+                <P class="accueil__texte"> The "Asterix and Cleopatra" comic strip is a veritable masterpiece that has captured the hearts of readers the world over. Created by the two talented authors René Goscinny and Albert Uderzo, this iconic work is the sixth in the Asterix series. Their fruitful collaboration produced 34 comic book masterpieces, spanning the period from 1961 to 2009. However, even after the death of these two masters, the Asterix saga has continued thanks to the efforts of Jean-Yves Ferri on the script and Didier Conrad on the drawings, who have already created six new comics since then.</P>
+                <a href="/fr/livre.html"><img src="/public/img/accueil/accueil5.webp" alt="Comic book cover" class="accueil__img "></a>
+                <p class="accueil__légende"> Comic book cover</p>
+                <footer>
+                    <a href="/fr/livre.html"> more </a>
+                </footer>
+            </article>
+            <article>
+                <h2 class="accueil__intertitre">"I Got You (I Feel Good)" by James Brown : A Timeless Ode to Soul Funk</h2>
+                <p class="accueil__texte">"I Got You (I Feel Good)" is much more than just a song. It's a musical icon, an essential classic that marked its era and continues to inspire generations of music lovers. Written by the legendary James Brown in 1965, this nugget of soul funk music has left an indelible mark on the music industry.</p>
+                <a href="/fr/musique.html"><img src="/public/img/accueil/accueil6.webp" alt="James Brown" class="accueil__img  accueil__img__droite"></a>
+                <p class="accueil__légende accueil__légende_droite">James Brown</p>
+                <footer>
+                     <a href="/fr/musique.html"> more </a>
+                </footer>
+            </article>
+        </section>
+
+        <footer class="footer">
+            <h3 class="footer__titre">Chloé Vincent MMI 1 B1</h3>
+            <a href="mailto:chloepremanon@gmail.com"
+            class="footer__mail"
+            >
+             chloepremanon@gmail.com
+            </a>
+            <p> <a href="/fr/apropos.html" class="footer__lien">à propos </a> </p>
+            <p> <a href="/fr/contact.html" class="footer__lien">contact</a></p>
+            <p> <a href="/fr/glossaire.html" class="footer__lien"> glossaire </a></p>
+            <p> <a href="/fr/replique.html" class="footer__lien">Autres Projets</a> </p>
+            <p class="footer__texte"> Mention légale :
+             Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard
+             IUT Nord Franche-Comté - Université de Franche-Comté </p>
+             <a href="https://butmmi.thomasjeu.fr/#/"><img src="/public/img/footer/MMI_-_logo2.png" alt="logo MMI Montbéliard" class="footer__logo_mmi"></a>
+             <p class="footer__en"> FR/EN</p>
+             <a href="/en/index.html"><img src="/public/img/footer/footer_GB.webp" alt="drapeau Grande Bretagne" class="footer__drapeau"></a>
+         </footer>       
+    </main>
+</body>
+</html>
