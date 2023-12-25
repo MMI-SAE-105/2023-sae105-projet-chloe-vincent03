@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: #fff;
+    background: var(--orange);
     display: flex;
     z-index: 2;
   }
@@ -19,29 +19,32 @@
     overflow: hidden;
   }
 
-  .logo_menu{
-    width: 46px;
-    height: 55px;
+.logo-menu{
+    width: 105px;
+    height: 48px;
     flex-shrink: 0;
-    top: 24px;
-    left: 24px;
+    padding: 16px;
       
-}
+} 
 
 .menu-list{
-    list-style-type: none;
-    padding: 50px ;
+  background-color: var(--orange);
+    padding: 0px ;
     position: relative;
-    top: 40px  
+    top: 60px  
 
 }
 
 .menu-list li {
-    margin: 60px 0;
+    margin: 40px 0;
+}
+
+.menu-list li a {
+  color: var(--blanc) ;
 }
 
 .menu_texte{
-    color: var(--orange);
+    color: var(--blanc);
     font-family: Times New Roman;
     font-size: var(--titre-2);
     font-style: normal;
