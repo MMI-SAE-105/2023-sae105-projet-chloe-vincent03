@@ -2,7 +2,7 @@ h1{
     color: var(--noir);
     text-align: center;
     font-size: var(--titre);
-    font-family: Galindo;
+    font-family: "Galindo";
     text-transform: uppercase;
 
     
@@ -21,14 +21,14 @@ h2{
 
 h3{
     font-size: var(--intertitre);
-    font-family: Andika New Basic;
+    font-family: "Andika New Basic";
     text-transform: uppercase;
     color: var(--noir);
 
 }
 
 p{
-    font-family: Mulish;
+    font-family: "Mulish";
     font-size: var(--texte);
     font-style: normal;
     color: var(--noir);
@@ -37,7 +37,7 @@ p{
 }
 
 .legende{
-    font-family: Mulish;
+    font-family: "Mulish";
     font-size: 10px;
     font-style: normal;
     color: var(--orange);
