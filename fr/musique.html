@@ -1,26 +1,48 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr"  x-data="{menuIsOpen: false }" :class="{noscroll:menuIsOpen}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Mission Cléopâtre</title>
     <link rel="icon" href="/public/icon/logo.svg">
     <link rel="stylesheet" href="/src/css/style.css">
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
 <body>
-    <header>
+    <header class="header">
         <a href="/fr/index.html">
-            <img src="/public/icon/logo.svg" alt="logo mission cléopâtre">
+            <img src="/public/icon/logo.svg" alt="Logo mission cléopâtre" class="header-logo">
         </a>
-        <nav>
-        <ul>
-          <li><a href="/fr/film.html"> Astérix et Obélix : mission Cléopâtre</a></li>
-          <li><a href="/fr/replique.html">“Il fait au moins... -8000” </a></li>
-          <li><a href="/fr/realisateur.html">Alain Chabat </a></li>
-          <li><a href="/fr/livre.html"> Astérix et Cléopâtre Bd</a></li>
-          <li><a href="/fr/musique.html"> I feel Good </a></li>
+        <a class="dropbtn">
+            <img src="/public/icon/menu.svg" alt="Menu" 
+        aria-controls="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
+        >
+    </a>
+        <nav 
+          id="mainNav" 
+          x-show="menuIsOpen" 
+          x-transition.duration.500ms
+          class="menu"
+        >
+
+       <a href="/fr/index.html"  >
+            <img src="/public/icon/logo.svg" alt="Logo mission cléopâtre" class="logo-menu">
+        </a>
+
+        <img src="/public/icon/crois.svg" alt="Close menu" 
+        @click="menuIsOpen = false"
+        class="header_menuBtn"
+    > 
+          <ul class="menu-list">
+            <li><a href="/fr/film.html" class="menu_texte"> Astérix et Obélix : mission Cléopâtre</a></li>
+            <li><a href="/fr/replique.html" class="menu_texte">“Il fait au moins... -8000” </a></li>
+            <li><a href="/fr/realisateur.html" class="menu_texte">Alain Chabat </a></li>
+            <li><a href="/fr/livre.html" class="menu_texte"> Astérix et Cléopâtre Bd</a></li>
+            <li><a href="/fr/musique.html" class="menu_texte"> I feel Good </a></li>
         </ul>
-      </nav>
+        </nav>
     </header>
 <main>
     <a href="../en/index.html" onclick="document.cookie = 
