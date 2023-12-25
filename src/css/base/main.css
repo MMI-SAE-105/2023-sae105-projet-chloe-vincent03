@@ -10,7 +10,7 @@ h1{
 
 h2{
    font-size: var(--titre-2); 
-   font-family: Galindo;
+   font-family: "Galindo";
    text-transform: uppercase;
    color: var(--blanc);
    background-color: var(--orange);
@@ -23,7 +23,10 @@ h3{
     font-size: var(--intertitre);
     font-family: "Andika New Basic";
     text-transform: uppercase;
-    color: var(--noir);
+    color: var(--blanc);
+   background-color: var(--orange);
+   text-align: center;
+   margin: 0;
 
 }
 
