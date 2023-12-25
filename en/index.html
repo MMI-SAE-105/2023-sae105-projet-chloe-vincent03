@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr"  x-data="{menuIsOpen: false }" :class="{noscroll:menuIsOpen}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
         <a href="/en/index.html">
             <img src="/public/icon/logo.svg" alt="Logo mission cléopâtre" class="header-logo">
         </a>
-        <a class="Btn__menu">
+        <a class="dropbtn">
             <img src="/public/icon/menu.svg" alt="Menu" 
         aria-controls="mainNav"
         @click="menuIsOpen = ! menuIsOpen"
@@ -27,8 +27,8 @@
           class="menu"
         >
 
-        <a href="/en/index.html"  >
-            <img src="/public/icon/menu.svg" alt="Logo mission cléopâtre" class="logo-menu">
+       <a href="/en/index.html"  >
+            <img src="/public/icon/logo.svg" alt="Logo mission cléopâtre" class="logo-menu">
         </a>
 
         <img src="/public/icon/crois.svg" alt="Close menu" 
@@ -36,11 +36,11 @@
         class="header_menuBtn"
     > 
           <ul class="menu-list">
-            <li><a href="/fr/film.html" class="menu_texte"> Astérix et Obélix : mission Cléopâtre</a></li>
-            <li><a href="/fr/replique.html" class="menu_texte">“Il fait au moins... -8000” </a></li>
-            <li><a href="/fr/realisateur.html" class="menu_texte">Alain Chabat </a></li>
-            <li><a href="/fr/livre.html" class="menu_texte"> Astérix et Cléopâtre Bd</a></li>
-            <li><a href="/fr/musique.html" class="menu_texte"> I feel Good </a></li>
+            <li><a href="/en/film.html" class="menu_texte"> Asterix and Obelix : mission Cleopatra</a></li>
+            <li><a href="/en/replique.html" class="menu_texte">“Il fait au moins... -8000” </a></li>
+            <li><a href="/en/realisateur.html" class="menu_texte">Alain Chabat </a></li>
+            <li><a href="/en/livre.html" class="menu_texte"> Asterix and Cleopatra comics</a></li>
+            <li><a href="/en/musique.html" class="menu_texte"> I feel Good </a></li>
         </ul>
         </nav>
     </header>
