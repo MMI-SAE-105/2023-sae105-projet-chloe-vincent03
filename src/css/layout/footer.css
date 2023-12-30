@@ -1,0 +1,81 @@
+.footer{
+    background-color: var(--noir);
+    padding: 18px;
+}
+
+.footer__titre{
+    color: var(--blanc);
+    background-color: var(--noir);
+    text-align: left;
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+
+.footer__mail{
+    color: var(--blanc);
+    text-align: left;
+    line-height: 160%;
+    font-size: 10px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 16px */
+    letter-spacing: 1px;
+    text-decoration-line: underline;
+}
+
+.footer__lien{
+    color: var(--blanc);
+    font-family: "Mulish";
+    font-size: var(--intertitre);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+    letter-spacing: 1.4px;
+    text-decoration-line: underline;
+    text-transform: uppercase; 
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.footer__texte{
+    color: var(--blanc);
+    font-family: "Mulish";
+    font-size: var(--texte);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+    letter-spacing: 1.4px;
+    margin-bottom: 5px;
+}
+
+.footer__logo_mmi{
+    width: 46px;
+    height: 33px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.footer__drapeau{
+    width: 39px;
+    height: 33px;
+    flex-shrink: 0;
+    right: 0;
+}
+
+.logo-drapeau-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer__en{
+    color: var(--blanc);
+    font-family: "Mulish";
+    font-size: var(--texte);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+    letter-spacing: 1.4px;
+    margin-left: 10px;
+
+}
