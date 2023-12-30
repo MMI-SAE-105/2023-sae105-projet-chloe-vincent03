@@ -1,0 +1,45 @@
+.flèche {
+    position: relative;
+}
+.arrow {
+    position: absolute;
+    left: -8PX;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-top: 20px solid var(--noir); 
+}
+
+.line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 20px; 
+    width: 3px; 
+    background-color: var(--noir); 
+}
+
+.frise__img{
+    width: 113px;
+    height: 169px;
+    flex-shrink: 0;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.frise__date{
+    color: var(--noir);
+    font-family: "Galindo";
+    font-size: var(--titre-2);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
