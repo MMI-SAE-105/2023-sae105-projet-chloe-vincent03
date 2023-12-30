@@ -1,0 +1,7 @@
+.redirection{
+    text-decoration: none;
+    color: var(--blanc);
+    padding: 10px;
+    font-size: var(--texte);
+    background-color: var(--orange);
+}
