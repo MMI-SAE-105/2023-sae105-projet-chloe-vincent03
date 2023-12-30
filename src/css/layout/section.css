@@ -1,8 +1,8 @@
-.section:not(h3) {
+.section:not(h2) {
     padding: 20px;
 }
 
-.section{
+.section {
     padding: 20px !important;
 }
 

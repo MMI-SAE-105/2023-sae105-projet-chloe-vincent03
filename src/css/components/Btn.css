@@ -1,0 +1,24 @@
+.Btn{
+    color: var(--noir);
+    font-family: "Mulish";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 16px */
+    letter-spacing: 1px;
+    width: 83.934px;
+    height: 28px;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    display: flex;
+    width: 179px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px dashed #000;
+    background: var(--blanc, #000);
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
