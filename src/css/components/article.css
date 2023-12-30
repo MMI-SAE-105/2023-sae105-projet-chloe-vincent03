@@ -19,4 +19,27 @@
 
 .intertitre{
     text-align: center;
+    margin-top: 5px;
+}
+
+.film__img{
+    width: 262px;
+    height: 321px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.film__intertitre{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0px;
+}
+
+.film__texte{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
