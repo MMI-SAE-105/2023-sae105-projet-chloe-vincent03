@@ -1,11 +1,15 @@
-section:not(h3) {
+.section:not(h3) {
     padding: 20px;
 }
 
-section{
+.section{
     padding: 20px !important;
 }
 
-section h3 {
+.section h3 {
     padding: 0 !important;
+}
+
+.section__marron {
+    background-color: var(--orange);
 }
