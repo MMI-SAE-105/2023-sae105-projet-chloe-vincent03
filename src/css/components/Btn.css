@@ -22,3 +22,40 @@
     margin-top: 40px;
     margin-bottom: 30px;
 }
+
+.Btn-acceuil{
+    color: var(--noir);
+    font-family: "Mulish";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 16px */
+    letter-spacing: 1.4px;
+    width: 65.424px;
+    height: 30.609px;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    display: flex;
+    width: 127px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px dashed #000;
+    background: var(--blanc, #000);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    position: relative;
+    padding-right: 10px;
+}
+
+.Btn-acceuil::after {
+    content: '→';
+    position: absolute;
+    right: 15px;
+    top: 45%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
