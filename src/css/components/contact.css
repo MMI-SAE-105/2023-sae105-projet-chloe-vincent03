@@ -1,0 +1,55 @@
+.contact__Titre{
+    color: var(--blanc);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contact__texte{
+    color: var(--blanc);
+    margin-bottom: 40px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.contact__formulaire{
+    color: var(--blanc);
+    font-family: "Andika New Basic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact__Btn{
+    color: var(--noir);
+    font-family: "Mulish";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 16px */
+    letter-spacing: 1px;
+    width: 83.934px;
+    height: 28px;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    align-items: center;
+    border-radius: 60px;
+    border: 1px dashed #000;
+    background: var(--blanc, #000);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+
+input[type="text"], input[type="email"], textarea {
+    background: var(--blanc);
+    border: 1px solid var(--blanc); /* Change color as needed */
+    box-shadow: none;
+    outline: none;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 90%;
+}
