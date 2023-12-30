@@ -43,3 +43,10 @@
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
+.redirection{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    font-size: var(--texte);
+}
