@@ -4,4 +4,14 @@
     font-size: var(--legende);
     font-weight: bold;
     text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.article__img{
+    width: 262px;
+    height: 321px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
