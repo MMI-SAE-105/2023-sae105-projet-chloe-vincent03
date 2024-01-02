@@ -1,0 +1,14 @@
+.home{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.HOME__Titre{
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.home li {
+    margin: 30px 0; 
+}
