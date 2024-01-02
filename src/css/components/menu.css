@@ -27,17 +27,17 @@
       
 } 
 
-.menu-list{
+.menu-list {
   background-color: var(--orange);
-    padding: 0px ;
-    position: relative;
-    top: 60px  
-  color: var(--blanc)
-
+  padding: 0px;
+  position: relative;
+  top: 60px;
+  padding-left: 0px;
 }
 
 .menu-list li {
     margin: 40px 0;
+    color: var(--blanc);
 }
 
 .menu-list li a {
@@ -46,7 +46,7 @@
 
 .menu_texte{
     color: var(--blanc);
-    font-family: Times New Roman;
+    font-family: "Times New Roman";
     font-size: var(--titre-2);
     font-style: normal;
     font-weight: 400;
