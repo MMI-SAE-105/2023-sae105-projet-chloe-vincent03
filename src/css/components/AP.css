@@ -1,0 +1,33 @@
+.AP__img{
+    width: 113px;
+    height: 163px;
+    padding: 20px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.AP__intertitre_.left {
+    float: left;
+}
+
+.AP__intertitre_.right{
+    float: right;
+}
+
+.AP__nom_.left{
+    float: left;
+}
+
+.AP__nom_.right{
+    float: right;
+}
