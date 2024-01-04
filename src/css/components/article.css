@@ -55,4 +55,41 @@
     width: 312px;
     height: 208px;
     flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.img__auteur{
+    width: 327px;
+height: 222px;
+flex-shrink: 0;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.replique__img1{
+    width: 328px;
+    height: 154px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.replique__img2{
+    width: 321px;
+    height: 221px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
