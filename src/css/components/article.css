@@ -50,3 +50,9 @@
 .liens-film{
     color: var(--noir);
 }
+
+.img__musique2{
+    width: 312px;
+    height: 208px;
+    flex-shrink: 0;
+}
