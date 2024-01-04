@@ -36,6 +36,7 @@
     text-align: center;
     text-decoration: underline;
     margin-top: 0px;
+    color: var(--noir);
 }
 
 .film__texte{
@@ -44,3 +45,6 @@
     margin-bottom: 40px;
 }
 
+.liens-film{
+    color: var(--noir);
+}
