@@ -106,6 +106,47 @@ class="redirection"
         <p class="frise__date">...</p>
         </div>
     </section>
+    <section class="galerie" 
+    x-data="{
+        imageUrl:'/public/img/Oeuvres/galerie/max/historical-museum-max.jpg'
+    }" >
+        <h2 class="galerie__titre"> Les Ouvrages de référence</h2>
+    <p class="galerie__texte">Les plus belle œuvres de Shigeru Ban qui ont été réalisé pour des concours. </p>
+    <img 
+    class="img"
+    src="/public/img/Oeuvres/galerie/mini/historical-museum-mini.jpg" alt="historical-museum"
+            @click="imageUrl= '/public/img/Oeuvres/galerie/max/historical-museum-max.jpg'"
+            >
+    <img 
+    class="img"
+    src="/public/img/Oeuvres/galerie/mini/toyama-mini.jpg" alt="Toyama"
+            @click="imageUrl= '/public/img/Oeuvres/galerie/max/toyama-max.jpg'">
+    <img 
+    class="img"
+    src="/public/img/Oeuvres/galerie/mini/théatre-mini.jpg" alt="théatre"
+            @click="imageUrl= '/public/img/Oeuvres/galerie/max/théatre-max.jpg'">
+    <img
+    class="img"
+    src="/public/img/Oeuvres/galerie/mini/funeraire-mini.jpg" alt="funeraire"
+            @click="imageUrl= '/public/img/Oeuvres/galerie/max/funeraire-max.jpg'">
+    <img
+    class="img"
+    src="/public/img/Oeuvres/galerie/mini/palais-mini.jpg" alt="palais"
+            @click="imageUrl= '/public/img/Oeuvres/galerie/max/palais-max.jpg'">
+    <img 
+    class="img"
+    src="/public/img/Oeuvres/galerie/mini/airport-mini.jpg" alt="airport"
+            @click="imageUrl= '/public/img/Oeuvres/galerie/max/airport-max.jpg'">
+    
+    <div class="overlay"
+        x-show="imageUrl"
+        @click="imageUrl=null"
+        @keyup.escape.window="imageUrl = null">
+        <figure>
+            <img :src="imageUrl" alt="historical-museum"></figure>
+    </div>
+
+    </section>
     <h2>Le site Officiel - Astérix </h2>
     <section class="section">
         <a href="https://asterix.com/"><img src="/public/img/livre/livre17- liens vers site.webp" alt="photos d’Astérix faisant un clein d’œil " class="site-officiel__img"></a>
