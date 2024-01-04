@@ -1,0 +1,30 @@
+.titre__erreur{
+    text-align: center;
+    color: var(--orange);
+}
+
+.texte__erreur{
+    padding: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.BTN__erreur{
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 70px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 5px;
+    color: var(--blanc);
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+}
