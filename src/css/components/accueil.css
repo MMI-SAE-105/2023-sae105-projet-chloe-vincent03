@@ -47,6 +47,8 @@ margin-right: auto;
 .accueil__texte{
 padding: 18px;
 overflow: auto;
+display: flex;
+align-items: flex-start;
 }
 
 .accueil__img{
@@ -56,12 +58,10 @@ overflow: auto;
     border-radius: 30px;
     float: left;
     vertical-align: top;
+    padding: 18px;
 }
 
 .accueil__img__droite{
     float: right;
 }
 
-.accueil__img, .accueil__texte {
-    display: inline-block;
-}

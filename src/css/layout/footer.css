@@ -22,6 +22,7 @@
     line-height: 160%; /* 16px */
     letter-spacing: 1px;
     text-decoration-line: underline;
+    margin-bottom: 0px;
 }
 
 .footer__lien{
@@ -47,6 +48,7 @@
     line-height: 160%; /* 22.4px */
     letter-spacing: 1.4px;
     margin-bottom: 5px;
+    text-align: left;
 }
 
 .footer__logo_mmi{
