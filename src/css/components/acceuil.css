@@ -21,4 +21,47 @@ line-height: 160%; /* 22.4px */
 letter-spacing: 1.4px;
 text-transform: uppercase;
 font-weight: 500;
+padding: 8px;
+margin-bottom: 5px;
+text-decoration: none;
+
+}
+cite{
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    color: initial;
+    font-size: medium; 
+}
+
+
+.accueil__img1{
+    width: 175px;
+height: 246px;
+flex-shrink: 0;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.accueil__texte{
+padding: 18px;
+overflow: auto;
+}
+
+.accueil__img{
+    width: 127px;
+    height: 178px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    float: left;
+    vertical-align: top;
+}
+
+.accueil__img__droite{
+    float: right;
+}
+
+.accueil__img, .accueil__texte {
+    display: inline-block;
 }
