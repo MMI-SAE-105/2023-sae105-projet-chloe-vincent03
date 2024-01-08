@@ -50,7 +50,7 @@
 "
 class="redirection"
 >Fr</a>
-<h2> Asterix and Cleopatra comics </h2>
+<h2> <strong>Asterix and Cleopatra comics </strong> </h2>
     <section class="section">
         <h5 class="publié"> Published on January 10, 2024</h5>
         <article>
@@ -81,7 +81,7 @@ class="redirection"
             <p class="article__texte">"Asterix and Cleopatra is a captivating adventure story that skilfully blends humour, action and history, while celebrating the ingenuity of the iconic Asterix and Obelix characters. This comic strip, born of the ingenuity of Goscinny and Uderzo, lives on thanks to the work of Ferri and Conrad. It has become a veritable legend in comics and cinema, and its influence transcends generations. The adventures of Asterix continue to delight readers and viewers alike, and the saga remains a pillar of popular culture the world over.</p>
         </article>
     </section>
-    <h2>Books in the same collection </h2>
+    <h2> <strong>Books in the same collection </strong></h2>
     <section class="section">
         <div class="flèche">
             <div class="line"></div>
@@ -108,6 +108,46 @@ class="redirection"
         <img src="/public/img/livre/livre16.webp" alt="première de Couverture BD,Astérix aux jeux Olympiques" class="frise__img">
         <p class="frise__date">...</p>
         </div>
+    </section>
+    <h2> <strong> Reference works </strong></h2>
+    <section class="galerie" 
+    x-data="{
+        imageUrl:'/public/img/Galerie/max/max-1.png'
+    }" >
+    <img 
+    class="img__galerie"
+    src="/public/img/Galerie/mini/mini-1.png" alt="les 40 banquets d'Astérix"
+            @click="imageUrl= '/public/img/Galerie/max/max-1.png'">
+            
+    <img 
+    class="img__galerie"
+    src="/public/img/Galerie/mini/mini-2.png" alt="Dictionnaire insolite d’Astérix"
+            @click="imageUrl= '/public/img/Galerie/max/max-2.png'">
+    <img 
+    class="img__galerie"
+    src="/public/img/Galerie/mini/mini-3.png" alt="Astérix – Les citations latines expliquées"
+            @click="imageUrl= '/public/img/Galerie/max/max-3.png'">
+    <img
+    class="img__galerie"
+    src="/public/img/Galerie/mini/mini-4.png" alt="Astérix de A à Z"
+            @click="imageUrl= '/public/img/Galerie/max/max-4.png'">
+    <img
+    class="img__galerie"
+    src="/public/img/Galerie/mini/mini-5.png" alt="Le Monde Miroir d’Astérix"
+            @click="imageUrl= '/public/img/Galerie/max/max-5.png'">
+    <img 
+    class="img__galerie"
+    src="/public/img/Galerie/mini/mini-6.png" alt="Ils sont fous… d’Astérix"
+            @click="imageUrl= '/public/img/Galerie/max/max-6.png'">
+    
+    <div class="overlay"
+        x-show="imageUrl"
+        @click="imageUrl=null"
+        @keyup.escape.window="imageUrl = null">
+        <figure>
+            <img :src="imageUrl" alt="les 40 banquets d'Astérix"></figure>
+    </div>
+
     </section>
     <h2>The Official Website - Asterix </h2>
     <section class="section">
