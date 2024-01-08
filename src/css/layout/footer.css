@@ -63,11 +63,16 @@
     height: 33px;
     flex-shrink: 0;
     right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 5px;
 }
 
 .logo-drapeau-container {
     display: flex;
     align-items: center;
+    justify-content: center;
+    
 }
 
 .footer__en{
@@ -78,6 +83,8 @@
     font-weight: 400;
     line-height: 160%; /* 22.4px */
     letter-spacing: 1.4px;
-    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+
 
 }
