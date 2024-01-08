@@ -49,19 +49,27 @@ padding: 18px;
 overflow: auto;
 display: flex;
 align-items: flex-start;
+word-wrap: break-word;
+max-width: 300px;
 }
 
 .accueil__img{
-    width: 127px;
-    height: 178px;
+   /* width: 127px;
+    height: 178px;*/
     flex-shrink: 0;
     border-radius: 30px;
     float: left;
     vertical-align: top;
     padding: 18px;
+    max-width: 100%; /* La largeur maximale de l'image est définie à 100%, elle conservera ses dimensions d'origine */
+    height: auto;
 }
 
 .accueil__img__droite{
     float: right;
 }
+.container {
+    display: flex;
+    align-items: center; /* Aligner les éléments verticalement au centre */
+  }
 
