@@ -3,11 +3,14 @@
 }
 
 h1{
-    color: var(--noir);
+    color: var(--blanc);
     text-align: center;
     font-size: var(--titre);
     font-family: "Galindo";
     text-transform: uppercase;
+    background-color: var(--orange);
+    padding: 60px;
+    margin-bottom: 2px;
 
     
 }
@@ -26,6 +29,7 @@ h2{
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    margin-top: 0px;
     margin-bottom: 2px;
     padding: 18px;
     box-sizing: border-box;
