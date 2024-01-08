@@ -20,29 +20,30 @@
     class="header_menuBtn"
     >
 </a>
-    <nav 
-      id="mainNav" 
-      x-show="menuIsOpen" 
-      x-transition.duration.500ms
-      class="menu"
-    >
+<nav 
+id="mainNav" 
+x-show="menuIsOpen" 
+x-transition.duration.500ms
+class="menu"
+>
 
-   <a href="/en/index.html"  >
-        <img src="/public/icon/logo.svg" alt="Logo mission cléopâtre" class="logo-menu">
-    </a>
+<a href="/fr/index.html" class="logo-menu" >
+  <img src="/public/icon/logo.svg" alt="Logo mission cléopâtre" class="logo-menu">
+</a>
 
-    <img src="/public/icon/crois.svg" alt="Close menu" 
-    @click="menuIsOpen = false"
-    class="header_menuBtn"
+<img src="/public/icon/crois.svg" alt="Close menu" 
+@click="menuIsOpen = false"
+class="header_menuBtn"
 > 
-      <ul class="menu-list">
-        <li><a href="/en/film.html" class="menu_texte"> Asterix and Obelix : mission Cleopatra</a></li>
-        <li><a href="/en/replique.html" class="menu_texte">“Il fait au moins... -8000” </a></li>
-        <li><a href="/en/realisateur.html" class="menu_texte">Alain Chabat </a></li>
-        <li><a href="/en/livre.html" class="menu_texte"> Asterix and Cleopatra comics</a></li>
-        <li><a href="/en/musique.html" class="menu_texte"> I feel Good </a></li>
-    </ul>
-    </nav>
+<ul class="menu-list">
+<li><a href="/en/film.html" class="menu_texte"> Asterix and Obelix : mission Cleopatra</a></li>
+<li><a href="/en/replique.html" class="menu_texte">“Il fait au moins... -8000” </a></li>
+<li><a href="/en/realisateur.html" class="menu_texte">Alain Chabat </a></li>
+<li><a href="/en/livre.html" class="menu_texte"> Asterix and Cleopatra comics</a></li>
+<li><a href="/en/musique.html" class="menu_texte"> I feel Good </a></li>
+</ul>
+<a href="/fr/index.html" class="menu_fr-en">FR/EN</a>
+</nav>
 </header>
     <main>
       <a href="../fr/index.html" onclick="document.cookie = 
