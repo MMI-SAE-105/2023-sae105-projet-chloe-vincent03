@@ -20,10 +20,9 @@
 
 .logo-menu{
     width: 105px;
-    height: 48px;
+    height: auto;
     flex-shrink: 0;
-    padding: 16px;
-      
+    margin: 10px;
 } 
 
 .menu-list {
