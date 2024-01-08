@@ -98,3 +98,16 @@ p{
 body{
     box-sizing: border-box;
 }
+
+.legende__video{
+    color: var(--orange);
+    font-family: "Mulish";
+    font-size: var(--legende);
+    font-style: bold;
+    font-weight: 400;
+    line-height: 160%; /* 12.8px */
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
