@@ -99,3 +99,7 @@ display: block;
     margin-left: auto;
     margin-right: auto; 
 }
+
+.liens-interne{
+    color: var(--noir);
+}
