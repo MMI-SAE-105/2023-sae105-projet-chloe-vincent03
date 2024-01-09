@@ -1,6 +1,10 @@
 .header{
     background-color: var(--blanc);
     padding: 16px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 
@@ -30,7 +34,7 @@
 
 .close {
     position: absolute;
-    top: 24px;
+    top: 30px;
     right: 60px;
 }
   
@@ -44,4 +48,14 @@ hr{ border: none;
     border-top: 1px solid var(--blanc); 
     width: 70%; 
     margin: auto;
+}
+
+.header-menu{
+  background-color: var(--blanc);
+  padding: 16px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+
 }

@@ -97,7 +97,10 @@ display: block;
 .video{
     display: block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+    margin-top: 30px;
+    width: 340px;
+    height: auto;
 }
 
 .liens-interne{
