@@ -27,14 +27,17 @@
     class="menu"
   >
 
- <a href="/fr/index.html" class="logo-menu" >
-      <img src="/public/icon/logo.svg" alt="Logo mission cléopâtre" class="logo-menu">
-  </a>
+  <div class="header-menu">
+    <a href="/fr/index.html" class="logo-menu" >
+         <img src="/public/icon/logo.svg" alt="Logo mission cléopâtre" class="logo-menu">
+     </a>
 
-  <img src="/public/icon/crois.svg" alt="Close menu" 
-  @click="menuIsOpen = false"
-  class="header_menuBtn"
-> 
+
+     <img src="/public/icon/crois.svg" alt="Close menu" 
+     @click="menuIsOpen = false"
+     class="header_menuBtn"
+ > 
+</div>
     <ul class="menu-list">
       <li><a href="/fr/film.html" class="menu_texte"> Astérix et Obélix : mission Cléopâtre</a></li>
       <li><a href="/fr/replique.html" class="menu_texte">“Il fait au moins... -8000” </a></li>
