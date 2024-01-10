@@ -1,6 +1,8 @@
 .titre__erreur{
     text-align: center;
-    color: var(--orange);
+    color: var(--noir);
+    margin-bottom: 0px;
+    background-color: var(--blanc);
 }
 
 .texte__erreur{
@@ -9,6 +11,8 @@
     margin-top: 0px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--noir);
+    ;
 }
 
 .BTN__erreur{
